@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.leftSide {
+    width: 50%;
+    height: 100%;
+    background: rgb(20, 51, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signIn {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h5 {
+    color: #8896AB;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid var(--Gray-200, #D5DAE1);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    height: 46px;
+    width: 400px;
+    padding: 10px 14px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.forgotButton {
+    color: #22C55E;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.signInButton {
+    background: #22C55E;
+    color: white;
+    box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+    border-radius: 6px;
+    height: 46px;
+    width: 400px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.signUp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.signUpButton {
+    color: #22C55E;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.checkButton input {
+    height: 16px;
+    width: 16px;
+}
+
+.rightSide {
+    width: 50%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
